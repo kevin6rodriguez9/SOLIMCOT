@@ -1,0 +1,218 @@
+[
+  {
+    "nombre": "Tornillo M6",
+    "descripcion": "Tornillo de acero inoxidable",
+    "cantidad": 50,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Tuerca M6",
+    "descripcion": "Tuerca de acero galvanizado",
+    "cantidad": 80,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Placa metálica 50x50",
+    "descripcion": "Placa de acero 50x50 cm",
+    "cantidad": 20,
+    "unidad": "piezas"
+  },
+  {
+    "nombre": "Varilla metálica 1m",
+    "descripcion": "Varilla de hierro de 1 metro",
+    "cantidad": 40,
+    "unidad": "piezas"
+  },
+  {
+    "nombre": "Engranaje industrial",
+    "descripcion": "Engranaje de acero templado",
+    "cantidad": 15,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Perfiles IPE 100",
+    "descripcion": "Perfil estructural IPE 100 acero",
+    "cantidad": 10,
+    "unidad": "metros"
+  },
+  {
+    "nombre": "Ángulo metálico 50x50",
+    "descripcion": "Ángulo de acero para estructuras",
+    "cantidad": 25,
+    "unidad": "metros"
+  },
+  {
+    "nombre": "Chapa perforada",
+    "descripcion": "Chapa de acero perforada 2mm",
+    "cantidad": 30,
+    "unidad": "piezas"
+  },
+  {
+    "nombre": "Tubo metálico 1\"",
+    "descripcion": "Tubo de acero de 1 pulgada",
+    "cantidad": 60,
+    "unidad": "metros"
+  },
+  {
+    "nombre": "Tornillo cabeza hexagonal",
+    "descripcion": "Tornillo acero cabeza hexagonal M8",
+    "cantidad": 100,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Tuerca hexagonal M8",
+    "descripcion": "Tuerca de acero galvanizado M8",
+    "cantidad": 120,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Arandela M8",
+    "descripcion": "Arandela de acero inoxidable M8",
+    "cantidad": 200,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Cinta métrica 5m",
+    "descripcion": "Cinta métrica de acero con funda plástica",
+    "cantidad": 50,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Llave inglesa 12\"",
+    "descripcion": "Llave ajustable de acero cromado",
+    "cantidad": 25,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Martillo industrial",
+    "descripcion": "Martillo de acero con mango de madera",
+    "cantidad": 40,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Taladro eléctrico",
+    "descripcion": "Taladro profesional para metal",
+    "cantidad": 15,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Disco de corte metal 115mm",
+    "descripcion": "Disco abrasivo para corte de acero",
+    "cantidad": 80,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Lima metálica",
+    "descripcion": "Lima de acero para acabado fino",
+    "cantidad": 60,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Soldadura MIG 1kg",
+    "descripcion": "Electrodo para soldadura MIG",
+    "cantidad": 30,
+    "unidad": "barras"
+  },
+  {
+    "nombre": "Guantes de seguridad",
+    "descripcion": "Guantes resistentes a cortes y calor",
+    "cantidad": 100,
+    "unidad": "pares"
+  },
+  {
+    "nombre": "Casco industrial",
+    "descripcion": "Casco de seguridad para trabajos metalmecánicos",
+    "cantidad": 50,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Protector facial",
+    "descripcion": "Pantalla para soldadura y corte",
+    "cantidad": 40,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Tornillo autorroscante",
+    "descripcion": "Tornillo para chapa metálica",
+    "cantidad": 200,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Tuerca de mariposa",
+    "descripcion": "Tuerca manual de ajuste rápido",
+    "cantidad": 150,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Perfil tubular 40x40",
+    "descripcion": "Perfil cuadrado de acero tubular",
+    "cantidad": 35,
+    "unidad": "metros"
+  },
+  {
+    "nombre": "Eje metálico 2m",
+    "descripcion": "Eje de acero para transmisión",
+    "cantidad": 20,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Rodamiento 6205",
+    "descripcion": "Rodamiento de bolas para maquinaria",
+    "cantidad": 60,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Cilindro neumático",
+    "descripcion": "Cilindro para automatización industrial",
+    "cantidad": 10,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Polea metálica",
+    "descripcion": "Polea de acero para transmisión",
+    "cantidad": 25,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Tubo cuadrado 50x50",
+    "descripcion": "Tubo de acero cuadrado para estructuras",
+    "cantidad": 40,
+    "unidad": "metros"
+  },
+  {
+    "nombre": "Codo metálico 90°",
+    "descripcion": "Conector de tubería metálica 90 grados",
+    "cantidad": 60,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Abrazadera metálica",
+    "descripcion": "Abrazadera para sujetar tubos y cables",
+    "cantidad": 100,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Bisagra metálica",
+    "descripcion": "Bisagra para puertas y portones",
+    "cantidad": 80,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Tornillo M10",
+    "descripcion": "Tornillo de acero inoxidable M10",
+    "cantidad": 70,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Tuerca M10",
+    "descripcion": "Tuerca de acero galvanizado M10",
+    "cantidad": 70,
+    "unidad": "unidades"
+  },
+  {
+    "nombre": "Arandela M10",
+    "descripcion": "Arandela plana de acero M10",
+    "cantidad": 100,
+    "unidad": "unidades"
+  }
+]
