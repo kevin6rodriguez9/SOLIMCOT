@@ -5,32 +5,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Solimcot - Metalmecánica Industrial</title>
-
-    <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap"
         rel="stylesheet" />
 
-    <!-- Hoja de estilos externa -->
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-
-    <!-- ============================================================
-       NAVBAR
-  ============================================================ -->
     <nav id="navbar">
         <div class="container">
             <div class="nav-inner">
-
-                <!-- Logo -->
                 <a href="#inicio" class="nav-logo">
-                    <div class="nav-logo-icon"><span>S</span></div>
+                    <div class="nav-logo-icon"><span><img src="LOGOSOLIMCOT.webp" alt=""></span></div>
                     <span class="nav-logo-text">SOLIM<em>COT</em></span>
                 </a>
-
-                <!-- Links de escritorio -->
                 <ul class="nav-links">
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#servicios">Servicios</a></li>
@@ -38,8 +27,6 @@
                     <li><a href="#contacto">Contacto</a></li>
                     <li><a href="#agendar" class="nav-cta">Agendar</a></li>
                 </ul>
-
-                <!-- Botón hamburguesa (móvil) -->
                 <button class="nav-hamburger" id="hamburger" aria-label="Abrir menú">
                     <span></span>
                     <span></span>
@@ -47,8 +34,6 @@
                 </button>
             </div>
         </div>
-
-        <!-- Menú desplegable móvil -->
         <div class="nav-drawer" id="drawer">
             <a href="#inicio" onclick="closeDrawer()">Inicio</a>
             <a href="#servicios" onclick="closeDrawer()">Servicios</a>
@@ -57,28 +42,20 @@
             <a href="#agendar" onclick="closeDrawer()">Agendar visita</a>
         </div>
     </nav>
-
-    <!-- ============================================================
-       HERO – INICIO
-  ============================================================ -->
     <section id="inicio">
         <div class="hero-bg"></div>
         <div class="hero-accent"></div>
-
         <div class="container hero-content">
             <div class="hero-badge">Empresa certificada &bull; Bogotá, Colombia</div>
-
             <h1 class="hero-title">
                 SOLUCIONES EN<br>
                 <span class="accent">METALMECÁNICA</span><br>
                 DE ALTA CALIDAD
             </h1>
-
             <p class="hero-sub">
                 Fabricación, soldadura y reparaciones industriales con los más altos estándares de precisión. Tu
                 proyecto en manos de expertos.
             </p>
-
             <div class="hero-actions">
                 <a href="#agendar" class="btn btn-primary">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
@@ -92,8 +69,6 @@
                 </a>
                 <a href="#servicios" class="btn btn-outline">Ver servicios</a>
             </div>
-
-            <!-- Estadísticas -->
             <div class="hero-stats">
                 <div class="stat-item">
                     <div class="stat-num">15+</div>
@@ -111,17 +86,11 @@
                 </div>
             </div>
         </div>
-
-        <!-- Badge flotante decorativo -->
         <div class="hero-float">
             <div class="hero-float-num">ISO</div>
             <div class="hero-float-text">Calidad certificada</div>
         </div>
     </section>
-
-    <!-- ============================================================
-       MARQUEE – Franja de servicios animada
-  ============================================================ -->
     <div class="marquee-strip" aria-hidden="true">
         <div class="marquee-inner">
             <span class="marquee-item">SOLDADURA</span><span class="marquee-dot">◆</span>
@@ -130,7 +99,6 @@
             <span class="marquee-item">CORTE CNC</span><span class="marquee-dot">◆</span>
             <span class="marquee-item">FABRICACIÓN A MEDIDA</span><span class="marquee-dot">◆</span>
             <span class="marquee-item">MANTENIMIENTO PREVENTIVO</span><span class="marquee-dot">◆</span>
-            <!-- Segunda copia para loop continuo -->
             <span class="marquee-item">SOLDADURA</span><span class="marquee-dot">◆</span>
             <span class="marquee-item">ESTRUCTURAS METÁLICAS</span><span class="marquee-dot">◆</span>
             <span class="marquee-item">REPARACIONES INDUSTRIALES</span><span class="marquee-dot">◆</span>
@@ -208,9 +176,15 @@
                     <span class="section-label">Sobre nosotros</span>
                     <h2 class="section-title reveal">Precisión que se<br>forja con experiencia</h2>
                     <p class="section-desc reveal reveal-delay-1">
-                        Somos una empresa colombiana especializada en metalmecánica industrial, con más de 15 años
-                        transformando materias primas en soluciones estructurales de alta calidad para el sector
-                        productivo nacional.
+                        Solimcot sas, es una empresa joven creada con el objetivo de dar soluciones mediante procesos
+                        METALMECÁNICOS, especializándose en la fabricación de estructuras metálicas, reparación de
+                        piezas mecánicas, montajes estructurales, reformas locativas y trabajos de construcciones
+                        civiles.
+                        Estamos comprometidos con satisfacer los requerimientos de nuestros clientes para lo cual
+                        contamos con el respaldo técnico y la experiencia de un excelente equipo de profesionales
+                        capacitados, que nos permitirán desarrollar actividades con altos estándares de calidad,
+                        seguridad y salud ocupacional, bajo la normativa actual.
+
                     </p>
 
                     <!-- Tarjetas Misión / Visión -->
@@ -218,16 +192,20 @@
                         <div class="mv-card reveal reveal-delay-2">
                             <div class="mv-card-icon">🎯</div>
                             <div class="mv-card-title">Misión</div>
-                            <div class="mv-card-text">Entregar soluciones metalmecánicas de alta precisión, cumpliendo
-                                normas de calidad, seguridad y tiempo de entrega, generando valor para nuestros
-                                clientes.</div>
+                            <div class="mv-card-text">Prestar servicios de diseño, fabricación, reparación, montaje e
+                                instalación/puesta en marcha de productos, proyectos metalmecánicos y civiles.
+                                Priorizando la satisfacción de nuestros clientes, obteniendo una mejora continua de
+                                nuestros procesos, capacitando nuestro personal buscando la rentabilidad y crecimiento
+                                de la empresa.</div>
                         </div>
                         <div class="mv-card reveal reveal-delay-3">
                             <div class="mv-card-icon">🔭</div>
                             <div class="mv-card-title">Visión</div>
-                            <div class="mv-card-text">Ser la empresa líder en metalmecánica industrial en Colombia,
-                                reconocida por la excelencia técnica, la innovación y el compromiso con el desarrollo
-                                del país.</div>
+                            <div class="mv-card-text">Buscamos ser una empresa líder en la industria metalmecánica, y en
+                                el sector industrial, basado en exigentes estándares de calidad e innovación, mediante
+                                mejoras continuas en los procesos productivos, garantizando a sus clientes un servicio
+                                de excelencia, responsabilidad y compromiso. Ser reconocidos por brindar soluciones
+                                industriales confiables y de alta calidad.</div>
                         </div>
                     </div>
                 </div>
@@ -504,8 +482,9 @@
                     </div>
                     <div>
                         <div class="contact-label">Teléfono</div>
-                        <div class="contact-value">+57 (1) 234-5678</div>
-                        <div class="contact-sub">Lunes a Viernes · 7 am – 6 pm</div>
+                        <div class="contact-value">+57 301 2354552</div>
+                        <div class="contact-value">+57 320 8419362</div>
+                        <div class="contact-sub">Lunes a Viernes · 7 am - 6 pm</div>
                     </div>
                 </div>
 
@@ -519,7 +498,7 @@
                     </div>
                     <div>
                         <div class="contact-label">Correo electrónico</div>
-                        <div class="contact-value">info@solimcot.com.co</div>
+                        <div class="contact-value">solimcot@gmail.com</div>
                         <div class="contact-sub">Respondemos en menos de 24 h</div>
                     </div>
                 </div>
@@ -555,19 +534,12 @@
                         <span style="font-size:.75rem">S</span>
                     </div>
                     <p class="footer-copy">
-                        © 2024 <strong>Solimcot</strong> · Todos los derechos reservados.
+                        © 2026 <strong>Solimcot</strong> · Todos los derechos reservados.
                     </p>
                 </div>
 
                 <!-- Redes sociales simuladas -->
                 <div class="footer-socials">
-                    <button class="social-btn" title="LinkedIn" onclick="alert('LinkedIn de Solimcot')">
-                        <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                            <rect x="2" y="9" width="4" height="12" />
-                            <circle cx="4" cy="4" r="2" />
-                        </svg>
-                    </button>
                     <button class="social-btn" title="Instagram" onclick="alert('Instagram de Solimcot')">
                         <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                             <rect x="2" y="2" width="20" height="20" rx="5" />
@@ -592,7 +564,6 @@
         </div>
     </footer>
 
-    <!-- Script externo (al final del body para mejor rendimiento) -->
     <script src="script.js"></script>
 
 </body>
